@@ -1,5 +1,8 @@
 import '../styles/button.styles.scss'
 
+
+
+
 export const BUTTON_TYPE_CLASSES = {
   google: "google-sign-in",
   inverted: "inverted",
@@ -16,4 +19,4 @@ const Button = ({ children, buttonType, ...otherProps }) => {
   );
 };
 
-export default Button;  
+export default Button;
